@@ -1,0 +1,45 @@
+{
+    "1": {
+        "oracle-agent": {
+            "enabled": true,
+            "workflow_stub": "stub://oracle-v1"
+        },
+        "mvp-agent": {
+            "enabled": true,
+            "workflow_stub": "stub://mvp-workflow"
+        }
+    },
+    "2": {
+        "oracle-agent": {
+            "enabled": true,
+            "workflow_stub": "https://ediporaclev3.web.app/api/oracle_execute"
+        }
+    },
+    "3": {
+        "oracle-agent": {
+            "enabled": true,
+            "workflow_stub": "stub://oracle-v1"
+        }
+    },
+    "4": {
+        "oracle-agent": {
+            "enabled": true,
+            "workflow_stub": "stub://oracle-v1"
+        }
+    },
+    "5": {
+        "oracle-agent": {
+            "enabled": true,
+            "workflow_stub": "stub://oracle-v1"
+        }
+    },
+    "6": {},
+    "7": {},
+    "8": {},
+    "9": {
+        "commander-agent": {
+            "enabled": true,
+            "workflow_stub": "internal://commander_boot"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "mvp-router",
+  "version": "1.0.0",
+  "description": "MVP Router Server with 9-slot registry",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^8.3.0",
+    "@google-cloud/workflows": "^5.0.0",
+    "axios": "^1.13.5",
+    "dotenv": "^17.2.4",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0",
+    "winston": "^3.19.0"
+  }
+}
